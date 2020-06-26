@@ -8,7 +8,7 @@ int main( void )
 
 {
 
-    printf( "Hello, LEGO World!\n" );
+    printf( "Hello, World!\n" );
 
     ev3_init();//funcao da biblioteca ev3
 
