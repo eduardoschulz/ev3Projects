@@ -10,7 +10,7 @@ int main( void )
 
     printf( "Hello, LEGO World!\n" );
 
-    ev3_init();
+    ev3_init();//funcao da biblioteca ev3
 
     switch ( get_light( LIT_LEFT )) {
 
