@@ -14,15 +14,15 @@ int main( void )
 {
     int i;
     uint8_t sn;
-    FLAGS_T state;
-    char s[ 256 ];
+   // FLAGS_T state;
+    //char s[ 256 ];
 
 
-#ifndef __ARM_ARCH_4T__
-    printf( "The EV3 brick auto-detection is DISABLED,\nwaiting %s online with plugged tacho...\n", ev3_brick_addr );
-#else
-    printf( "Waiting tacho is plugged...\n" );
-#endif
+//#ifndef __ARM_ARCH_4T__
+    //printf( "The EV3 brick auto-detection is DISABLED,\nwaiting %s online with plugged tacho...\n", ev3_brick_addr );
+//#else
+   // printf( "Waiting tacho is plugged...\n" );
+//#endif
     while ( ev3_tacho_init() < 1 ) Sleep( 1000 );
     printf( "*** ( EV3 ) Hello! ***\n" );
     printf( "Found tacho motors:\n" );
