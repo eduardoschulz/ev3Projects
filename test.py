@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 from ev3dev2.motor import LargeMotor, OUTPUT_A, OUTPUT_D, SpeedPercent, MoveTank
 
-
+print("Iniciando Script")
 # TODO: Add code here
 #m = LargeMotor(OUTPUT_A)  motores individuais
 #m2 = LargeMotor(OUTPUT_D)
